@@ -1,3 +1,8 @@
+---
+title: STM32 Dual Encoder Motor Control & RGBW Lighting
+layout: default
+---
+
 # STM32-Based Synchronized Dual Encoder Motor Control & RGBW Lighting System
 
 An integrated embedded control system combining encoder-based dual-motor synchronization, multiple communication interfaces, RF remote control, and RGBW lighting control.
