@@ -1,0 +1,44 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Responsive portfolio width */
+.wrapper {
+  width: 92%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+  max-width: 100%;
+  float: none;
+}
+
+header {
+  width: 100%;
+  float: none;
+  position: static;
+}
+
+@media screen and (max-width: 720px) {
+  .wrapper {
+    width: 94%;
+  }
+
+  body {
+    overflow-wrap: break-word;
+  }
+
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
