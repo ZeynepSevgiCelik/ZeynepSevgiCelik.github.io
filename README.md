@@ -10,4 +10,4 @@
 
 ## About
 
-Embedded systems engineer with experience in PCB design, firmware development, motor control algorithms, and hardware-software integration.
+Embedded systems engineer with experience in PCB design, firmware development, encoder motor control algorithms and hardware-software integration.
