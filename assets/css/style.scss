@@ -4,6 +4,7 @@
 
 @import "{{ site.theme }}";
 
+/* Centered page layout */
 .wrapper {
   width: 100%;
   max-width: 900px;
@@ -12,6 +13,7 @@
   box-sizing: border-box;
 }
 
+/* Header and content alignment */
 header,
 section,
 footer {
@@ -21,6 +23,11 @@ footer {
   padding: 0;
 }
 
+header {
+  text-align: left;
+}
+
+/* Readable typography */
 body {
   font-size: 14px;
   line-height: 1.7;
@@ -38,22 +45,52 @@ h3 {
   font-size: 16px;
 }
 
-p, li, td, th {
+p,
+li,
+td,
+th {
   font-size: 13px;
   line-height: 1.6;
 }
 
+/* Project table */
 table {
   width: 100%;
+  table-layout: auto;
   border-collapse: collapse;
   margin: 20px auto;
 }
 
-th, td {
-  padding: 10px;
+th,
+td {
+  padding: 10px 16px;
   vertical-align: top;
 }
 
+/* More space between columns */
+th:first-child,
+td:first-child {
+  padding-left: 16px;
+  padding-right: 24px;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  padding-right: 24px;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  padding-right: 24px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile layout */
 @media screen and (max-width: 720px) {
   .wrapper {
     padding: 0 16px;
@@ -61,6 +98,20 @@ th, td {
 
   table {
     display: block;
+    max-width: 100%;
     overflow-x: auto;
+  }
+
+  th,
+  td {
+    padding: 8px 12px;
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+
+  body {
+    overflow-wrap: break-word;
   }
 }
