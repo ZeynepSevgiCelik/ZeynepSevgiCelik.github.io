@@ -1,17 +1,18 @@
+
 # Zeynep Sevgi Çelik
 
-Embedded Systems Engineer | PCB Design | Firmware Development
+**Embedded Systems Engineer | PCB Design | Firmware Development**
+
+[View My GitHub Profile](https://github.com/ZeynepSevgiCelik)
 
 ## Projects
 
+Engineering solutions from concept to deployment.
+
 | Thumbnail | Project | Summary | Tech |
-|---|---|---|---|
-| <img src="Awning_Control_Board.jpg"
-     width="240"
-     height="320"
-     style="object-fit: contain;"
-     alt="Awning Control Board"> | **STM32-Based Synchronized Dual Encoder Motor Control & RGBW Lighting System** — [Case Study](case-study.html) | Designed a custom embedded control system featuring encoder-based synchronization of two motors, multiple communication interfaces, RF remote control and MOSFET-based RGBW lighting control. | STM32 · Embedded Firmware · Motor Control · Encoder Feedback · PCB Design · Wi-Fi · UART · RF · Ebyte LoRa · MOSFET |
+|:--|:--|:--|:--|
+| <img src="Awning_Control_Board.jpg" width="150" alt="Awning Control Board"> | **STM32-Based Synchronized Dual Encoder Motor Control & RGBW Lighting System** — [Case Study](case-study.html) | Designed a custom embedded control system featuring encoder-based synchronization of two motors, multiple communication interfaces, RF remote control, and MOSFET-based RGBW lighting control. | STM32 · Embedded Firmware · Motor Control · Encoder Feedback · PCB Design · Wi-Fi · UART · RF · Ebyte LoRa · MOSFET |
 
 ## About
 
-Embedded systems engineer with experience in PCB design, firmware development, encoder motor control algorithms and hardware-software integration.
+Embedded systems engineer with experience in PCB design, firmware development, encoder motor control algorithms, and hardware-software integration.
