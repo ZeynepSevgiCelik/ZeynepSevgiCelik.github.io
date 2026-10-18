@@ -1,6 +1,6 @@
 # Zeynep Sevgi Çelik
 
-**Embedded Systems Engineer | PCB Design | Firmware Development**
+Embedded Systems Engineer | PCB Design | Firmware Development
 
 ## Projects
 
