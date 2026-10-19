@@ -14,4 +14,6 @@ Embedded systems engineer experienced in PCB design, firmware development, motor
 
 ## Contact
 
-[GitHub Profile](https://github.com/ZeynepSevgiCelik)
+Istanbul, Türkiye · +90 534 545 95 15
+
+[LinkedIn](https://linkedin.com/in/zeynepsevgicelik/) · [GitHub](https://github.com/ZeynepSevgiCelik)
