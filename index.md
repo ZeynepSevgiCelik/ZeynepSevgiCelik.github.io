@@ -20,7 +20,9 @@ Building reliable embedded solutions from circuit to firmware.
 
 <h2>Contact</h2>
 
-<p>Istanbul, Türkiye · +90 534 545 95 15</p>
+<p>+90 534 545 95 15</p>
+
+<p>Istanbul, Türkiye</p>
 
 <p><a href="https://linkedin.com/in/zeynepsevgicelik/">LinkedIn</a> · <a href="https://github.com/ZeynepSevgiCelik">GitHub</a></p>
 
