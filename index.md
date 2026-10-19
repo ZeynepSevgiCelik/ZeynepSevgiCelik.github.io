@@ -1,3 +1,7 @@
+---
+layout: default
+title: Zeynep Sevgi Çelik
+---
 # Zeynep Sevgi Çelik
 
 **Embedded Systems Engineer**
