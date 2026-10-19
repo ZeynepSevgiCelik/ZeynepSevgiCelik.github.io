@@ -1,19 +1,16 @@
-
 ---
 ---
 
 @import "{{ site.theme }}";
 
-/* Centered page layout */
 .wrapper {
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 28px;
   box-sizing: border-box;
 }
 
-/* Header and content alignment */
 header,
 section,
 footer {
@@ -24,54 +21,62 @@ footer {
 }
 
 header {
-  text-align: left;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
-/* Readable typography */
+header h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+header p {
+  font-size: 16px;
+}
+
 body {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.7;
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 28px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 22px;
+  margin-top: 32px;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 p,
 li,
 td,
 th {
-  font-size: 13px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.65;
 }
 
-/* Project table */
 table {
   width: 100%;
   table-layout: auto;
   border-collapse: collapse;
-  margin: 20px auto;
+  margin: 24px auto;
 }
 
 th,
 td {
-  padding: 10px 16px;
+  padding: 12px 16px;
   vertical-align: top;
 }
 
-/* More space between columns */
 th:first-child,
 td:first-child {
-  padding-left: 16px;
-  padding-right: 40px;
+  padding-left: 12px;
+  padding-right: 24px;
 }
 
 th:nth-child(2),
@@ -79,39 +84,4 @@ td:nth-child(2) {
   padding-right: 24px;
 }
 
-th:nth-child(3),
-td:nth-child(3) {
-  padding-right: 24px;
-}
-
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Mobile layout */
-@media screen and (max-width: 720px) {
-  .wrapper {
-    padding: 0 16px;
-  }
-
-  table {
-    display: block;
-    max-width: 100%;
-    overflow-x: auto;
-  }
-
-  th,
-  td {
-    padding: 8px 12px;
-  }
-
-  h1 {
-    font-size: 23px;
-  }
-
-  body {
-    overflow-wrap: break-word;
-  }
-}
+th:nth-child(3
