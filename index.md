@@ -3,14 +3,13 @@ layout: default
 title: Zeynep Sevgi Çelik
 ---
 
+<div class="home-content">
+
 Building reliable embedded solutions from circuit to firmware.
 
 <div class="hero-links">
-
-[View Projects](projects.html)
-
-[Download Resume (PDF)](resume.pdf)
-
+<a href="projects.html">View Projects</a>
+<a href="resume.pdf">Download Resume (PDF)</a>
 </div>
 
 ---
@@ -24,3 +23,5 @@ Embedded systems engineer experienced in PCB design, firmware development, motor
 Istanbul, Türkiye · +90 534 545 95 15
 
 [LinkedIn](https://linkedin.com/in/zeynepsevgicelik/) · [GitHub](https://github.com/ZeynepSevgiCelik)
+
+</div>
