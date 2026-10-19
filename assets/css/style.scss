@@ -95,22 +95,6 @@ img {
   height: auto;
 }
 
-@media screen and (max-width: 700px) {
-  .wrapper {
-    padding: 0 16px;
-  }
-
-  table {
-    display: block;
-    overflow-x: auto;
-  }
-
-  th,
-  td {
-    padding: 8px;
-  }
-
-  
 .home-content {
   text-align: center;
 }
@@ -143,6 +127,26 @@ img {
   color: white;
 }
 
+@media screen and (max-width: 700px) {
+  .wrapper {
+    padding: 0 16px;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .hero-links {
     flex-direction: column;
@@ -151,11 +155,5 @@ img {
 
   .hero-links a {
     font-size: 18px;
-  }
-}
-
-
-  header h1 {
-    font-size: 26px;
   }
 }
