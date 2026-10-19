@@ -3,6 +3,8 @@ title: Projects
 layout: default
 ---
 
+[← Home](index.html)
+
 # Projects
 
 Engineering solutions from concept to deployment.
