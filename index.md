@@ -12,16 +12,17 @@ Building reliable embedded solutions from circuit to firmware.
 <a href="resume.pdf">Download Resume (PDF)</a>
 </div>
 
----
+<div class="home-section">
 
-## Introduction
+<h2>Introduction</h2>
 
-Embedded systems engineer experienced in PCB design, firmware development, motor control algorithms, and hardware-software integration.
+<p>Embedded systems engineer experienced in PCB design, firmware development, motor control algorithms, and hardware-software integration.</p>
 
-## Contact
+<h2>Contact</h2>
 
-Istanbul, Türkiye · +90 534 545 95 15
+<p>Istanbul, Türkiye · +90 534 545 95 15</p>
 
-[LinkedIn](https://linkedin.com/in/zeynepsevgicelik/) · [GitHub](https://github.com/ZeynepSevgiCelik)
+<p><a href="https://linkedin.com/in/zeynepsevgicelik/">LinkedIn</a> · <a href="https://github.com/ZeynepSevgiCelik">GitHub</a></p>
 
+</div>
 </div>
