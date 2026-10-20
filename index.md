@@ -18,13 +18,19 @@ title: Zeynep Sevgi Çelik
 
 <h2>Contact</h2>
 
-<p><a href="mailto:z.sevgicelik@gmail.com">z.sevgicelik@gmail.com</a></p>
+<div class="contact-grid">
 
-<p>+90 534 545 95 15</p>
+  <div>
+    <p>+90 534 545 95 15</p>
+    <p><a href="mailto:z.sevgicelik@gmail.com">z.sevgicelik@gmail.com</a></p>
+  </div>
 
-<p>Istanbul, Türkiye</p>
+  <div>
+    <p>Istanbul, Türkiye</p>
+    <p><a href="https://linkedin.com/in/zeynepsevgicelik/">LinkedIn</a> · <a href="https://github.com/ZeynepSevgiCelik">GitHub</a></p>
+  </div>
 
-<p><a href="https://linkedin.com/in/zeynepsevgicelik/">LinkedIn</a> · <a href="https://github.com/ZeynepSevgiCelik">GitHub</a></p>
+</div>
 
 </div>
 </div>
