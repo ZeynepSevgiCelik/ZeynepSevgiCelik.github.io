@@ -16,7 +16,7 @@ Building reliable embedded solutions from circuit to firmware.
 
 <h2>Introduction</h2>
 
-<p>Embedded systems engineer experienced in PCB design, firmware development, motor control algorithms, and hardware-software integration.</p>
+<p>This portfolio showcases embedded systems projects, highlighting hardware design, software development, and system integration. Each project presents an overview of the solution, its key design aspects, implementation details, and the technologies used, providing insight into the engineering process behind each project.</p>
 
 <h2>Contact</h2>
 
