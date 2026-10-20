@@ -38,11 +38,14 @@ body {
   font-size: 15px;
   line-height: 1.7;
   background-color: #FFFFFF;
+
   background-image:
-    radial-gradient(circle, rgba(0, 0, 0, 0.22) 1px, transparent 1.5px),
-    linear-gradient(90deg, transparent 49.7%, rgba(0, 0, 0, 0.07) 50%, transparent 50.3%),
-    linear-gradient(0deg, transparent 49.7%, rgba(0, 0, 0, 0.07) 50%, transparent 50.3%);
-  background-size: 48px 48px, 96px 96px, 96px 96px;
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='720' viewBox='0 0 220 720'%3E%3Cg fill='none' stroke='%23111111' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round' opacity='.22'%3E%3Cpath d='M0 55 H25 Q40 55 40 70 V105 Q40 120 55 120 H82 Q98 120 98 136 V170 Q98 185 113 185 H155'/%3E%3Cpath d='M0 285 H38 Q54 285 54 301 V325 Q54 341 70 341 H105 Q121 341 121 357 V390'/%3E%3Cpath d='M0 520 H24 Q40 520 40 504 V468 Q40 452 56 452 H82 Q98 452 98 436 V420 H130'/%3E%3Cpath d='M0 650 H45 Q61 650 61 634 V610 Q61 594 77 594 H100'/%3E%3C/g%3E%3Cg fill='%23FFFFFF' stroke='%23111111' stroke-width='1.2' opacity='.3'%3E%3Ccircle cx='155' cy='185' r='4'/%3E%3Ccircle cx='121' cy='390' r='4'/%3E%3Ccircle cx='130' cy='420' r='4'/%3E%3Ccircle cx='100' cy='594' r='4'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='720' viewBox='0 0 220 720'%3E%3Cg fill='none' stroke='%23111111' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round' opacity='.22'%3E%3Cpath d='M220 90 H190 Q174 90 174 106 V140 Q174 156 158 156 H132 Q116 156 116 172 V205 H82'/%3E%3Cpath d='M220 300 H184 Q168 300 168 316 V345 Q168 361 152 361 H125'/%3E%3Cpath d='M220 475 H196 Q180 475 180 491 V525 Q180 541 164 541 H140 Q124 541 124 557 V580'/%3E%3Cpath d='M220 665 H175 Q159 665 159 649 V625 Q159 609 143 609 H120'/%3E%3C/g%3E%3Cg fill='%23FFFFFF' stroke='%23111111' stroke-width='1.2' opacity='.3'%3E%3Ccircle cx='82' cy='205' r='4'/%3E%3Ccircle cx='125' cy='361' r='4'/%3E%3Ccircle cx='140' cy='580' r='4'/%3E%3Ccircle cx='120' cy='609' r='4'/%3E%3C/g%3E%3C/svg%3E");
+
+  background-repeat: repeat-y, repeat-y;
+  background-position: left top, right top;
+  background-size: 220px 720px, 220px 720px;
 }
 
 h1 {
