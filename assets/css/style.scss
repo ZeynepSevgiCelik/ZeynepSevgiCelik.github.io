@@ -1,173 +1,76 @@
----
----
-
-@import "{{ site.theme }}";
-
-.wrapper {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 28px;
-  box-sizing: border-box;
-}
-
-header,
-section,
-footer {
-  float: none;
-  width: 100%;
-  position: static;
-  padding: 0;
-}
-
-header {
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-header h1 {
-  font-size: 32px;
-  margin-bottom: 12px;
-}
-
-header p {
-  font-size: 16px;
-}
-
-body {
-  font-size: 15px;
-  line-height: 1.7;
-  background-color: #FFFFFF;
-
-  background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='720' viewBox='0 0 220 720'%3E%3Cg fill='none' stroke='%23111111' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round' opacity='.22'%3E%3Cpath d='M0 55 H25 Q40 55 40 70 V105 Q40 120 55 120 H82 Q98 120 98 136 V170 Q98 185 113 185 H155'/%3E%3Cpath d='M0 285 H38 Q54 285 54 301 V325 Q54 341 70 341 H105 Q121 341 121 357 V390'/%3E%3Cpath d='M0 520 H24 Q40 520 40 504 V468 Q40 452 56 452 H82 Q98 452 98 436 V420 H130'/%3E%3Cpath d='M0 650 H45 Q61 650 61 634 V610 Q61 594 77 594 H100'/%3E%3C/g%3E%3Cg fill='%23FFFFFF' stroke='%23111111' stroke-width='1.2' opacity='.3'%3E%3Ccircle cx='155' cy='185' r='4'/%3E%3Ccircle cx='121' cy='390' r='4'/%3E%3Ccircle cx='130' cy='420' r='4'/%3E%3Ccircle cx='100' cy='594' r='4'/%3E%3C/g%3E%3C/svg%3E"),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='720' viewBox='0 0 220 720'%3E%3Cg fill='none' stroke='%23111111' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round' opacity='.22'%3E%3Cpath d='M220 90 H190 Q174 90 174 106 V140 Q174 156 158 156 H132 Q116 156 116 172 V205 H82'/%3E%3Cpath d='M220 300 H184 Q168 300 168 316 V345 Q168 361 152 361 H125'/%3E%3Cpath d='M220 475 H196 Q180 475 180 491 V525 Q180 541 164 541 H140 Q124 541 124 557 V580'/%3E%3Cpath d='M220 665 H175 Q159 665 159 649 V625 Q159 609 143 609 H120'/%3E%3C/g%3E%3Cg fill='%23FFFFFF' stroke='%23111111' stroke-width='1.2' opacity='.3'%3E%3Ccircle cx='82' cy='205' r='4'/%3E%3Ccircle cx='125' cy='361' r='4'/%3E%3Ccircle cx='140' cy='580' r='4'/%3E%3Ccircle cx='120' cy='609' r='4'/%3E%3C/g%3E%3C/svg%3E");
-
-  background-repeat: repeat-y, repeat-y;
-  background-position: left top, right top;
-  background-size: 220px 720px, 220px 720px;
-}
-
-h1 {
-  font-size: 28px;
-}
-
-h2 {
-  font-size: 22px;
-  margin-top: 32px;
-}
-
-h3 {
-  font-size: 17px;
-}
-
-p,
-li,
-td,
-th {
-  font-size: 14px;
-  line-height: 1.65;
-}
-
-table {
-  width: 100%;
-  table-layout: auto;
-  border-collapse: collapse;
-  margin: 24px auto;
-}
-
-th,
-td {
-  padding: 12px 16px;
-  vertical-align: top;
-}
-
-th:first-child,
-td:first-child {
-  padding-left: 12px;
-  padding-right: 24px;
-}
-
-th:nth-child(2),
-td:nth-child(2) {
-  padding-right: 24px;
-}
-
-th:nth-child(3),
-td:nth-child(3) {
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.home-content {
-  text-align: center;
-}
-
-.home-content h2 {
-  text-align: center;
-}
-
-.home-section h2 {
-  font-size: 18px;
-  margin-top: 24px;
-}
-
 .hero-links {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
-  margin: 32px 0;
+  gap: 32px;
+  margin: 32px auto 0;
 }
 
 .hero-links a {
   display: inline-block;
-  font-size: 20px;
+  width: 230px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 18px;
   font-weight: 600;
-  padding: 12px 20px;
+  padding: 12px 16px;
   border: 1px solid #267CB9;
   border-radius: 6px;
   text-decoration: none;
 }
 
-.hero-links a:hover {
-  background-color: #267CB9;
-  color: white;
+.home-section {
+  margin-top: 36px;
 }
 
-@media screen and (max-width: 700px) {
-  .wrapper {
-    padding: 0 16px;
-  }
+.home-section h2 {
+  font-size: 18px;
+  margin-top: 24px;
+  text-align: center;
+}
 
-  table {
-    display: block;
-    overflow-x: auto;
-  }
+.introduction-text {
+  max-width: 760px;
+  margin: 0 auto;
+}
 
-  th,
-  td {
-    padding: 8px;
-  }
+.contact-section {
+  margin-top: 56px;
+}
 
-  header h1 {
-    font-size: 26px;
-  }
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  max-width: 700px;
+  margin: 20px auto 0;
+  text-align: left;
+}
+
+.contact-column p {
+  margin: 8px 0;
+  overflow-wrap: anywhere;
 }
 
 @media screen and (max-width: 600px) {
   .hero-links {
     flex-direction: column;
-    gap: 12px;
+    gap: 14px;
   }
 
   .hero-links a {
+    width: 230px;
     font-size: 18px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    max-width: 320px;
+  }
+
+  .contact-section {
+    margin-top: 40px;
   }
 }
