@@ -5,7 +5,7 @@ title: Zeynep Sevgi Çelik
 
 <div class="home-content">
 
-Building reliable embedded solutions from circuit to firmware.
+Turning engineering concepts into integrated solutions.
 
 <div class="hero-links">
 <a href="projects.html">View Projects</a>
