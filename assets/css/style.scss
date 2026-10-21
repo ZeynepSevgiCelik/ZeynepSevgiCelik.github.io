@@ -116,26 +116,34 @@ img {
   font-size: 18px;
   margin-top: 24px;
 }
+
 .home-section h2:last-of-type {
-  margin-top: 40px;
+  margin-top: 60px;
 }
+
 .hero-links {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 24px;
   margin: 32px 0;
 }
 
 .hero-links a {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 280px;
+  min-height: 70px;
   font-size: 20px;
   font-weight: 600;
   padding: 12px 20px;
   border: 1px solid #267CB9;
   border-radius: 6px;
   text-decoration: none;
+  text-align: center;
 }
 
 .hero-links a:hover {
@@ -170,6 +178,8 @@ img {
   }
 
   .hero-links a {
+    width: 280px;
+    max-width: 100%;
     font-size: 18px;
   }
 }
