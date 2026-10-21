@@ -7,7 +7,7 @@ title: Zeynep Sevgi Çelik
 
 <div class="hero-links">
 <a href="projects.html">View Projects</a>
-<a href="resume.pdf">Download Resume (PDF)</a>
+<a href="resume.pdf">Download Resume</a>
 </div>
 
 <div class="home-section">
