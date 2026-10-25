@@ -55,5 +55,23 @@ Engineering solutions from concept to deployment.
         STM32 · C · Embedded Firmware · Circuit Design · PCB Design · UART · RS485 · Wi-Fi · MQ-135 · LDR · PIR · AHT15 · Microphone · USB Type-C
       </td>
     </tr>
+    <tr>
+      <td valign="top">
+        <a href="Scheduled_Pump.jpg" target="_blank">
+          <img src="Scheduled_Pump.jpg" width="150" alt="Scheduled Drain Pump">
+        </a>
+      </td>
+      <td valign="top">
+        <strong>Drain Pump – Programmable Pump Control System</strong>
+        <br>
+        <a href="drain-pump.html">View Case Study</a>
+      </td>
+      <td valign="top">
+        Developed an STM32-based programmable pump control system with separate weekday and weekend schedules, Wi-Fi mobile application control, and power-loss data preservation using a voltage-fall interrupt and Flash storage. The project was approved by Diversey.
+      </td>
+      <td valign="top">
+        STM32 · Embedded C · Firmware Development · Flash Memory · Interrupt Handling · Wi-Fi · UART · AC-DC Power Supply · Bridge Rectifier · Buck Converter · TPS54331 · PCB Design
+      </td>
+    </tr>
   </tbody>
 </table>
