@@ -21,7 +21,9 @@ Engineering solutions from concept to deployment.
   <tbody>
     <tr>
       <td valign="top">
-        <img src="Awning_Control_Board.jpg" width="150" alt="Awning Control Board">
+        <a href="Awning_Control_Board.jpg" target="_blank">
+          <img src="Awning_Control_Board.jpg" width="150" alt="Awning Control Board">
+        </a>
       </td>
       <td valign="top">
         <strong>STM32-Based Synchronized Dual Encoder Motor Control &amp; RGBW Lighting System</strong>
@@ -37,7 +39,9 @@ Engineering solutions from concept to deployment.
     </tr>
     <tr>
       <td valign="top">
-        <img src="sensorKarti.jpg" width="150" alt="IT Security Monitor">
+        <a href="sensorKarti.jpg" target="_blank">
+          <img src="sensorKarti.jpg" width="150" alt="IT Security Monitor">
+        </a>
       </td>
       <td valign="top">
         <strong>IT Security Monitor – Multi-Sensor Environmental Monitoring System</strong>
