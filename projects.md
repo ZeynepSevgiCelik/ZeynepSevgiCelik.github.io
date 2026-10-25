@@ -35,5 +35,19 @@ Engineering solutions from concept to deployment.
         STM32 · Embedded Firmware · Motor Control · Encoder Feedback · PCB Design · Wi-Fi · UART · RF · Ebyte LoRa · MOSFET
       </td>
     </tr>
+    <tr>
+      <td valign="top">
+        <img src="sensorKarti.jpg" width="150" alt="IT Security Monitor">
+      </td>
+      <td valign="top">
+        <strong>IT Security Monitor – Multi-Sensor Environmental Monitoring System</strong>
+      </td>
+      <td valign="top">
+        Designed and developed a custom STM32-based monitoring system integrating gas, light, motion, temperature, humidity, and sound detection. Implemented RS485-based device configuration and Wi-Fi data transmission to a server database.
+      </td>
+      <td valign="top">
+        STM32 · C · Embedded Firmware · Circuit Design · PCB Design · UART · RS485 · Wi-Fi · MQ-135 · LDR · PIR · AHT15 · Microphone · USB Type-C
+      </td>
+    </tr>
   </tbody>
 </table>
