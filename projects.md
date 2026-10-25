@@ -45,6 +45,8 @@ Engineering solutions from concept to deployment.
       </td>
       <td valign="top">
         <strong>IT Security Monitor – Multi-Sensor Environmental Monitoring System</strong>
+        <br>
+        <a href="it-security-monitor.html">View Case Study</a>
       </td>
       <td valign="top">
         Designed and developed a custom STM32-based monitoring system integrating gas, light, motion, temperature, humidity, and sound detection. Implemented RS485-based device configuration and Wi-Fi data transmission to a server database.
