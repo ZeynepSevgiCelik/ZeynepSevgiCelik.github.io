@@ -70,7 +70,7 @@ Engineering solutions from concept to deployment.
         Developed an STM32-based programmable pump control system with separate weekday and weekend schedules, Wi-Fi mobile application control, and power-loss data preservation using a voltage-fall interrupt and Flash storage. The project was approved by Diversey.
       </td>
       <td valign="top">
-        STM32 · Embedded C · Firmware Development · Flash Memory · Interrupt Handling · Wi-Fi · UART · AC-DC Power Supply · Bridge Rectifier · Buck Converter · TPS54331 · PCB Design
+        STM32 · Embedded C · Flash Memory · Interrupt Handling · Wi-Fi · UART · Power Supply Design · TPS54331 · PCB Design
       </td>
     </tr>
   </tbody>
