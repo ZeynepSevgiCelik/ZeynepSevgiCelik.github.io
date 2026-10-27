@@ -31,6 +31,7 @@ This project integrates multiple environmental sensors into a custom embedded mo
 - **Sound Presence Detection:** Uses a microphone circuit to report sound presence as a binary value.
 - **Device Configuration:** Supports board-address configuration over RS485 and configurable Wi-Fi credentials.
 - **Wi-Fi Data Transmission:** Sends sensor data to a server endpoint for database storage.
+- **I2C Communication:** Uses I2C to communicate with the AHT15 temperature and humidity sensor.
 
 ## Hardware Design & PCB
 
@@ -62,6 +63,8 @@ The AHT15 measures:
 
 The sensor was selected based on component availability.
 
+**Communication Interface:** I2C.
+
 ### Microphone Sound Detection
 
 The microphone circuit detects sound presence using binary logic:
@@ -82,6 +85,10 @@ The firmware gathers six values from five sensors: gas, light, motion, temperatu
 
 UART is used for serial communication, while RS485 supports communication and board-address configuration at 9600 baud.
 
+### I2C
+
+I2C is used for communication between the STM32 microcontroller and the AHT15 temperature and humidity sensor.
+
 ### Wi-Fi
 
 The Wi-Fi network name and password can be configured. The device sends the collected sensor data to a provided server endpoint, where the data is stored in a database.
@@ -94,6 +101,7 @@ After a data record is sent, the system waits approximately 60 seconds before be
 - Custom PCB design and hardware development.
 - STM32 embedded firmware development in C.
 - Integration of five sensors.
+- I2C communication with the AHT15 sensor.
 - UART and RS485 communication implementation.
 - Board-address and Wi-Fi configuration.
 - Wi-Fi data transmission and server integration.
@@ -101,7 +109,7 @@ After a data record is sent, the system waits approximately 60 seconds before be
 
 ## Engineering Scope
 
-This project demonstrates practical experience in embedded systems, sensor integration, custom PCB development, serial communication, firmware engineering, and server-connected environmental monitoring.
+This project demonstrates practical experience in embedded systems, sensor integration, custom PCB development, I2C and serial communication, firmware engineering, and server-connected environmental monitoring.
 
 ## Hardware Images & Documentation
 
