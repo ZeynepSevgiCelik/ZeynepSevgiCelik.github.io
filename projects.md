@@ -52,7 +52,7 @@ Engineering solutions from concept to deployment.
         Designed and developed a custom STM32-based monitoring system integrating gas, light, motion, temperature, humidity, and sound detection. Implemented RS485-based device configuration and Wi-Fi data transmission to a server database.
       </td>
       <td valign="top">
-        STM32 · C · Embedded Firmware · I2C · UART · RS485 · Wi-Fi · MQ-135 · LDR · PIR · AHT15 · Microphone · USB Type-C · Circuit Design · PCB Design · SPI · EEPROM
+        STM32 · C · Embedded Firmware · I2C · UART · RS485 · Wi-Fi · MQ-135 · LDR · PIR · AHT15 · Microphone · USB Type-C · Circuit Design · PCB Design 
       </td>
     </tr>
     <tr>
